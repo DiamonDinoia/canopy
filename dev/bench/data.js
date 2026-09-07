@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1788181665268,
+  "lastUpdate": 1788782272259,
   "repoUrl": "https://github.com/DiamonDinoia/treeweave",
   "entries": {
     "canopy batch eval": [
@@ -3196,6 +3196,94 @@ window.BENCHMARK_DATA = {
             "value": 0.00036592475,
             "unit": "s/batch",
             "extra": "MdAPE=0.00367747898975269; batch=65536 pts/call"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]",
+            "email": "49699333+dependabot[bot]@users.noreply.github.com"
+          },
+          "committer": {
+            "name": "Marco Barbone",
+            "username": "DiamonDinoia",
+            "email": "DiamonDinoia@users.noreply.github.com"
+          },
+          "id": "001f4387878d50a28f188099fb19eef358ca4dcf",
+          "message": "Build(deps): Bump matlab-actions/run-command in the github-actions group\n\nBumps the github-actions group with 1 update: [matlab-actions/run-command](https://github.com/matlab-actions/run-command).\n\n\nUpdates `matlab-actions/run-command` from 2 to 3\n- [Release notes](https://github.com/matlab-actions/run-command/releases)\n- [Commits](https://github.com/matlab-actions/run-command/compare/v2...v3)\n\n---\nupdated-dependencies:\n- dependency-name: matlab-actions/run-command\n  dependency-version: '3'\n  dependency-type: direct:production\n  update-type: version-update:semver-major\n  dependency-group: github-actions\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+          "timestamp": "2026-09-02T13:08:23Z",
+          "url": "https://github.com/DiamonDinoia/treeweave/commit/001f4387878d50a28f188099fb19eef358ca4dcf"
+        },
+        "date": 1788782270082,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "eval/1d/runge/f64",
+            "value": 0.000452418,
+            "unit": "s/batch",
+            "extra": "MdAPE=0.00282689585260527; batch=65536 pts/call"
+          },
+          {
+            "name": "eval/1d/runge-deep/f64",
+            "value": 0.000848619125,
+            "unit": "s/batch",
+            "extra": "MdAPE=0.00267481394756057; batch=65536 pts/call"
+          },
+          {
+            "name": "eval/1d/runge-deep/f32",
+            "value": 0.000517020444444444,
+            "unit": "s/batch",
+            "extra": "MdAPE=0.00262173168313449; batch=65536 pts/call"
+          },
+          {
+            "name": "eval/2d/bump/f64",
+            "value": 0.000748772625,
+            "unit": "s/batch",
+            "extra": "MdAPE=0.00235303222219068; batch=65536 pts/call"
+          },
+          {
+            "name": "eval/3d/smooth/f64",
+            "value": 0.00153994275,
+            "unit": "s/batch",
+            "extra": "MdAPE=0.000719284700274358; batch=65536 pts/call"
+          },
+          {
+            "name": "eval/2d/bump-deep/f64",
+            "value": 0.0016887227,
+            "unit": "s/batch",
+            "extra": "MdAPE=0.00217820330020014; batch=65536 pts/call"
+          },
+          {
+            "name": "eval/3d/smooth-deep/f64",
+            "value": 0.0050674444,
+            "unit": "s/batch",
+            "extra": "MdAPE=0.0072160058632176; batch=65536 pts/call"
+          },
+          {
+            "name": "eval/2d->3d/vector/f64",
+            "value": 0.000882425222222222,
+            "unit": "s/batch",
+            "extra": "MdAPE=0.000363162285235382; batch=65536 pts/call"
+          },
+          {
+            "name": "eval-scalar/1d/runge/f64",
+            "value": 0.000239141375,
+            "unit": "s/batch",
+            "extra": "MdAPE=0.000470131239305779; batch=65536 pts/call"
+          },
+          {
+            "name": "eval-scalar/1d/runge-deep/f64",
+            "value": 0.000381073125,
+            "unit": "s/batch",
+            "extra": "MdAPE=0.0017415391591651; batch=65536 pts/call"
+          },
+          {
+            "name": "eval-scalar/1d/runge-deep/f32",
+            "value": 0.0003601315,
+            "unit": "s/batch",
+            "extra": "MdAPE=0.000959458434075925; batch=65536 pts/call"
           }
         ]
       }
