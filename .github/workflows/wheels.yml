@@ -87,7 +87,7 @@ jobs:
       # so vcvarsall and LLVM here reach the build.
       - name: Setup MSVC + LLVM binutils + Ninja (Windows)
         if: matrix.name == 'windows-x64'
-        uses: aminya/setup-cpp@v1.8.1
+        uses: aminya/setup-cpp@v1.10.0
         with:
           compiler: llvm
           cmake: true
@@ -95,7 +95,7 @@ jobs:
           vcvarsall: true
 
       - name: Build wheels
-        uses: pypa/cibuildwheel@v4.2.0
+        uses: pypa/cibuildwheel@v4.2.1
         with:
           package-dir: bindings/python
         env:
